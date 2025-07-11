@@ -1,0 +1,22 @@
+{
+  "name": "Custom Mug AR Viewer",
+  "short_name": "MugAR",
+  "description": "View your custom mug design in augmented reality",
+  "start_url": "/#ar-view",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#3B82F6",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "xr": {
+    "supported_modes": ["immersive-ar"],
+    "required_features": ["local", "hit-test"],
+    "optional_features": ["dom-overlay", "light-estimation"]
+  }
+}
